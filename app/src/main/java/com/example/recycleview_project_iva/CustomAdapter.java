@@ -38,11 +38,11 @@ public class CustomAdapter extends RecyclerView.Adapter<ViewHolder> {
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         final Movie movie = (Movie) movies.get(position);
 
-        holder.setTextView(movie.getTitle());
+        holder.setTitle(movie.getTitle());
 
-        holder.setTextView2(movie.getGenre());
+        holder.setGenre(movie.getGenre());
 
-        holder.setTextView3(Long.toString(movie.getYear()));
+        holder.setYear(Long.toString(movie.getYear()));
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override

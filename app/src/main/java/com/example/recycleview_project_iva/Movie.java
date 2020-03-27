@@ -3,9 +3,9 @@ package com.example.recycleview_project_iva;
 public class Movie {
     private String title;
     private String genre;
-    private Long year;
+    private long year;
 
-    public Movie(String title, String genre, Long year) {
+    public Movie(String title, String genre, long year) {
         this.title = title;
         this.genre = genre;
         this.year = year;
@@ -19,7 +19,7 @@ public class Movie {
         return genre;
     }
 
-    public Long getYear() {
+    public long getYear() {
         return year;
     }
 

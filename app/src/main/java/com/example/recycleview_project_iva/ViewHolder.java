@@ -20,25 +20,25 @@ public class ViewHolder extends RecyclerView.ViewHolder {
         textView3 = itemView.findViewById(R.id.textView3);
     }
 
-    public TextView getTextView (){
+    public TextView getTitle (){
         return textView;
     }
-    public TextView getTextView2() {
+    public TextView getGenre() {
         return textView2;
     }
-    public TextView getTextView3() {
+    public TextView getYear() {
         return textView3;
     }
 
-    public void setTextView(String textView) {
+    public void setTitle(String textView) {
         this.textView.setText(textView);
     }
 
-    public void setTextView2(String textView2) {
+    public void setGenre(String textView2) {
         this.textView2.setText(textView2);
     }
 
-    public void setTextView3(String textView3) {
+    public void setYear(String textView3) {
         this.textView3.setText(textView3);
     }
 }
